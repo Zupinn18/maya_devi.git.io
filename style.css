@@ -59,7 +59,7 @@
 
 .about-right{
     width: 50%;
-    background: url(/par.jpg);
+    background: url(par.jpg);
     object-fit: cover;
 }
 
@@ -161,7 +161,7 @@
 }
 
 .box-2{
-    background: url(/assests/service.jpeg);
+    background: url(assests/service.jpeg);
     object-fit: cover;
     display: flex;
     padding: 10px 16px;
@@ -455,8 +455,8 @@
     margin-top: 1px;
     width: 100%;
     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("/assests/dare.jpeg");
-    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("/assests/dare.jpeg"); /* The least supported option. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("assests/dare.jpeg");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("assests/dare.jpeg"); /* The least supported option. */
     height: 500px;
     object-fit: cover;
 }
