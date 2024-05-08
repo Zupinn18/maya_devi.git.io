@@ -32,6 +32,15 @@
     z-index: -1;
 }
 
+.nav-container{
+    width: 100%;
+    background-color: #23376c;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    padding: 12px 18px;
+}
+
 .navbar{
    color: white;
    display: flex;
@@ -41,17 +50,22 @@
    margin-top: 20px;
 }
 
-.about-container{
+.about{
     width: 100%;
     display: flex;
     margin-top: 1px;
-    height: 400px;
+    height: 500px;
+    background-color: #21337d;
+}
+
+.about-container{
+    display: flex;
 }
 
 .about-left{
     width: 50%;
     padding: 50px;
-    background-color: blue;
+    background-color: #21337d;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -74,7 +88,7 @@
 }
 
 .btn{
-    background-color: #c2341a !important;
+    background-color: #249038 !important;
 }
 
 .about-content{
@@ -125,7 +139,7 @@
 }
 
 .details-head{
-    color: #61b239;
+    color: #249038;
     font-size: 40px;
     font-weight: 700;
 }
@@ -141,7 +155,7 @@
     padding: 10px 16px;
     flex-direction: column;
     gap: 25px;
-    background-color: #61b239;
+    background-color: #249038;
     color: rgb(228, 228, 228);
 }
 
@@ -171,13 +185,18 @@
 
 .study{
     width: 100%;
-    background-color: #006690;
+    background-color: #23376c;
     margin-top: 1px;
 }
 
 .study-container{
     width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
 }
 
 .study-top{
@@ -189,12 +208,13 @@
 
 .top-head{
     font-size: 45px;
-    color: white;
+    color: #0dcc37;
     font-weight: 900;
 }
 
 .top-details{
     display: flex;
+    margin-top: 30px;
     gap: 20px;
     justify-content: space-between;
 
@@ -276,18 +296,19 @@
     justify-content: space-between;
     padding: 12px 24px;
     font-size: 20px;
-    color: #006690;
+    color: #23376c;
 }
 
 .line2{
     width: 1px;
     height: 25px;
-    background-color: #006690;
+    background-color: #23376c;
 }
 
 .research{
     width: 100%;
-    background-color: #c0c0c0;
+    background-color: #23376c;
+    margin-top: 1px;
 }
 
 .research-container{
@@ -297,6 +318,8 @@
     gap: 50px;
     padding: 12px 24px;
     gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .research-content{
@@ -307,13 +330,13 @@
 }
 
 .research-content h2{
-    font-size: 50px;
-    color: #e3b121;
+    font-size: 55px;
+    color: white;
 }
 
 .research-content p{
     text-align: right;
-    color: #98923d;
+    color: #0dcc37;
     font-size: 22px;
 }
 
@@ -328,7 +351,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    color: #808000;
+    color: #0dcc37;
     font-size: 18px;
 }
 
@@ -353,12 +376,13 @@
 
 .label{
     font-size: 18px;
-    color: #98923d;
+    color: whitesmoke;
 }
 
 .news-details{
     width: 100%;
-    background-color: #25367d;
+    background-color: #23376c;
+    margin-top: 1px;
 }
 
 .details-container{
@@ -367,6 +391,8 @@
     display: flex;
     justify-content: space-between;
     padding: 15px 24px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .details-left{
@@ -401,7 +427,7 @@
     font-size: 22px;
     color: white;
     font-weight: 800;
-    border-bottom: 2px solid #61b239;
+    border-bottom: 2px solid #249038;
 }
 
 .news-cards{
@@ -426,7 +452,7 @@
 
 .news-date{
     display: flex;
-    color: #61b239;
+    color: #249038;
     font-weight: 800;
     font-size: 55px;
     align-items: center;
@@ -442,7 +468,7 @@
 
 .news-btn{
     color: white;
-    background-color: #61b239;
+    background-color: #249038;
     padding: 8px 12px;
     border-radius: 30px;
     font-weight: 900;
@@ -455,8 +481,8 @@
     margin-top: 1px;
     width: 100%;
     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("assests/dare.jpeg");
-    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("assests/dare.jpeg"); /* The least supported option. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), #249038), url("assests/dare.jpeg");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), #249038), url("assests/dare.jpeg"); /* The least supported option. */
     height: 500px;
     object-fit: cover;
 }
@@ -493,7 +519,7 @@
 
 .dream-button{
     background-color: white;
-    color: #006690;
+    color: #23376c;
     font-weight: 700;
     font-size: 20px;
     padding: 12px 16px;
@@ -503,8 +529,9 @@
 }
 
 .footer{
+    margin-top: 1px;
     width: 100%;
-    background-color: #25366c;
+    background-color: #23376c;
     height: 500px;
 }
 
@@ -529,7 +556,7 @@
 }
 
 .link-details{
-    color: #a88932;
+    color: #0dcc37;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -545,5 +572,5 @@
     flex-direction: column;
     gap: 5px;
     font-size: 22px;
-    color: #a88932;
+    color: #0dcc37;
 }
